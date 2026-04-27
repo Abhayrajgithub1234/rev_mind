@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# RevMind - AI-Powered Business Analytics for MSMEs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+RevMind is an intelligent analytics platform designed specifically for Indian MSMEs (Micro, Small & Medium Enterprises). It transforms routine business data into actionable insights instantly, enabling smarter decision-making without requiring technical expertise.
 
-## Available Scripts
+## What is RevMind?
 
-In the project directory, you can run:
+**Hero Section Message:**
+> "Is your business still guessing your next move? Missing hidden revenue trends? Drowning in manual reports? Making decisions too slowly?"
+>
+> RevMind turns your everyday business data into clear, actionable insights — instantly. No tech skills needed.
 
-### `npm start`
+RevMind simplifies business intelligence for MSMEs by:
+- Converting complex business data into clear, visual insights
+- Providing AI-powered recommendations for growth opportunities
+- Offering instant analytics dashboards with no technical setup required
+- Helping businesses make data-driven decisions faster
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **AI-Powered Analytics** - Automatic data analysis and pattern recognition
+- **Smart Dashboards** - Real-time visualization of revenue, orders, and profit metrics
+- **Trend Analysis** - Identify hidden business trends and opportunities
+- **No Technical Skills Needed** - Simple, intuitive interface for all business users
+- **Fast Decision Making** - Get insights in seconds, not days
 
-### `npm test`
+## Current Stats
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **63M+** Indian MSMEs ready to grow
+- **3x** faster business decisions with RevMind
+- **40%** average revenue increase for users
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Development Server
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The app will open at [http://localhost:3000](http://localhost:3000)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Build for Production
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm run build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📁 Project Structure
 
-## Learn More
+```
+rev_mind/
+├── src/
+│   ├── Components/
+│   │   ├── RevMindHero.jsx       # Main hero section component
+│   │   └── RevMindHero.css       # Hero styling
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── public/
+└── package.json
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React** - Frontend framework
+- **CSS3** - Advanced styling with gradients and animations
+- **Google Fonts** - Poppins & DM Sans typography
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the LICENSE file for details.
